@@ -1,0 +1,59 @@
+*{
+	margin-left: 0;
+	padding :0;
+}
+
+#base{
+	width: 1200px;
+	height: 2000px;
+	background: #DAEAF3;
+	margin: 0.5em auto;
+	padding: 0.5em;
+	border-radius: 1em;
+	text-align: center;
+
+}
+
+#header{
+	width: 1200px;
+	height: 100px;
+	background: #2271C1;
+
+	margin: 0.5em auto;
+	padding: 0.5em;
+	border-radius: 1em;
+
+
+}
+
+#nav{
+	width: 1190px;
+	height: 50px;
+	background: #4392BD;
+	border-radius: 1em;
+	
+	border:5px dashed;
+}
+#contenido{
+	height: 80%;
+	background:#FFFFFF;
+	border-radius: 1em;
+	margin: 1.5em;
+}
+#letra{
+	font-size: 70px;
+
+  border: 2px solid #ccc;
+
+  text-align: center;
+
+}
+#letra_titulo{
+	font-size: 40px;
+  text-align: center;
+
+}
+p.saltodepagina
+{
+page-break-after: always;
+}
